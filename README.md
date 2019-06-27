@@ -1,5 +1,6 @@
 # SS19_Information_Studies_30_Weblogs
 Weblogs for Information Studies 30 for Summer Session 2019 
+
 Week 1 Weblog
 							
 This week’s readings can be characterized in differently for Tuesday’s and Thursday’s lecture. For Tuesday’s lecture, the readings discuss the parallels the effect of previous technologies and the internet we know today. For Thursday’s lecture, the three readings collectively inform the reader that “the internet” is an oversimplification of a rather complex system. 
