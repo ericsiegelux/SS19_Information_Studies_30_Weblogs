@@ -1,6 +1,7 @@
 # SS19_Information_Studies_30_Weblogs
 Weblogs for Information Studies 30 for Summer Session 2019
-							Week 1 Weblog
+
+Week 1 Weblog
 							
 This week’s readings can be characterized in differently for Tuesday’s and Thursday’s lecture. For Tuesday’s lecture, the readings discuss the parallels the effect of previous technologies and the internet we know today. For Thursday’s lecture, the three readings collectively inform the reader that “the internet” is an oversimplification of a rather complex system. 
 	
@@ -9,3 +10,15 @@ In “Technology and Ideology: The Case of the Telegraph” by James W. Carey, C
 In the beginnings of “The Master of Switch” by Tim Wu, Wu creates the concept of “The Cycle” in which information technologies go from enormous potentials that regular citizens utilize to better their society to being commodities that large corporations try to monetize and monopolize. Wu gives us a clear descriptions of how information technologies such as telephony, radio, and television, were “novelties” that were quickly made the foundations of NBC, CBS, and Hollywood. Relating this idea today with the internet, I saw someone yesterday reading a book called “The Four” by Scott Galloway. It was about the big four companies in technology today: Apple, Amazon, Facebook, and Google. All four of these companies have taken advantage of the internets’ possibilities and we hear in the news about these companies gaining immense control over our everyday interactions on the internet. 
 	
 The three articles for Thursday’s readings all talk about aspects of how we over-simplify our ideas of the internet. As was articulated in lecture, most people think the internet is just the world-wide-web. These three readings expanded my concept of how much more complicated the internet is. The article on how to build a low-tech internet made me think of all the different components that go into creating a network and how much more complicated it gets on a global level. “Not The Internet, but This Internet: How Othernets Illuminate Our Feudal Internet” by Paul Dourish had a big takeaway for me: Using the phrase “the internet”, as most of do, limits our understanding of other networks that are out there. I get it. It seems like human nature to try and take a complex idea and try to relate to your everyday interactions. Lastly “Engineering a Principle: ‘End to End’ in the Design of the Internet” by Tarleton Gillespie looks at the internet through different lenses such as political and legal settings. These readings show us there are many aspects we need to look at when considering the contraction and impact of the internet.
+
+Citation:
+
+Wu, Tim. The Master Switch : the Rise and Fall of Information Empires. New York :Alfred A. Knopf, 2010.
+
+John Durham Peters. "Technology and Ideology: The Case of the Telegraph Revisited" New YorkThinking With James Carey: Essays on Communications, Transportation, History (Intersections in Communications and Culture: Global Approaches and Transdisciplinary Perspectives) (2006)
+
+Gillespie, Tarleton. “Engineering a Principle: 'End-to-End' in the Design of the Internet.” Social Studies of Science, vol. 36, no. 3, 2006, pp. 427–457. JSTOR, www.jstor.org/stable/25474452.
+
+De Decker, Kris."How to Build a Low-tech Internet". Low Tech Magazine https://www.lowtechmagazine.com/2015/10/how-to-build-a-low-tech-internet.html
+
+Dourish, Paul. (2015). Not The Internet, but This Internet: How Othernets Illuminate Our Feudal Internet. Aarhus Series on Human Centered Computing. 1. 12. 10.7146/aahcc.v1i1.21200.
