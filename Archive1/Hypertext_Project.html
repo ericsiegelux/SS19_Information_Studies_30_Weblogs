@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<style type="text/css">
+	body {
+		background-color: #FF9B5E;
+  		height: 1000px;
+	}
+
+	img.album:hover{ 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(2);
+  -ms-transform: scale(2); 
+  -webkit-transform: scale(2); 
+  z-index: 1;
+	} 
+	#textfield{
+		background-color: #FF9B5E;
+		bottom: 100;
+		width:290px;
+		height: 150px;
+		position: fixed;
+		font-family: "Times New Roman", Times, serif;
+	}
+</style>
+<script type="text/javascript">
+	function text(x){
+		var textfield = document.getElementById("textfield") 
+        textfield.innerHTML = ""
+		var id = String(x)
+		id = id.split("!")
+		var description0 = document.createTextNode(id[0])
+		var description1 = document.createTextNode(id[1])
+		var description2 = document.createTextNode(id[2])
+		var description3 = document.createTextNode(id[3])
+		textfield.appendChild(description0)
+		textfield.appendChild(description1)
+		textfield.appendChild(description2)
+		textfield.appendChild(description3)
+		ids = [description0,description1,description2,description3]
+  		for (var i = 1; i < ids.length; i++) {
+    		var newElem = document.createElement("br");
+    		textfield.insertBefore(newElem, ids[i]);
+    		}
+		textfield.insertBefore(newElem, ids[3])
+	function reflection(x){
+		var reflection_div= document.getElementById("reflectiondiv") 
+		reflection_div.removeChild(reflection_div.childNodes[0])
+
+	}
+
+	};
+	
+ 
+</script>
+<html>
+	<span style="position:absolute;left:570px;font-size: 20px">Reflection Down Below</span>
+	<div id="textfield"> </div>
+	<img class="album" id="2001!Dr.Dre!I had a whole phase of 50 Cent, Eminem, and Dr.Dre (the lineage). This album was huge for me in middle school!*Listen to: The Watcher*" onclick="text(this.id)"  src="drdre2001.jpeg"  style="position:absolute; TOP:520px; LEFT:300px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Silent Beast!G-Herbo!Fall 2017: Werid album for me to be nostaligic about, but I am!*Listen to:   *" onclick="text(this.id)"  src="gherbosilentbeast.jpeg"  style="position:absolute; TOP:520px; LEFT:360px; WIDTH:60px; HEIGHT:60px " >
+		<img         src="teeth.png"  style="position:absolute; TOP:520px; LEFT:420px; WIDTH:60px; HEIGHT:60px " >
+		<img         src="teeth.png"  style="position:absolute; TOP:520px; LEFT:480px; WIDTH:60px; HEIGHT:60px " >
+		<img         src="teeth.png"  style="position:absolute; TOP:520px; LEFT:540px; WIDTH:60px; HEIGHT:60px " >
+		<img         src="teeth.png"  style="position:absolute; TOP:520px; LEFT:600px; WIDTH:60px; HEIGHT:60px " >
+		<img         src="teeth.png"  style="position:absolute; TOP:520px; LEFT:660px; WIDTH:60px; HEIGHT:60px " >
+		<img         src="teeth.png"  style="position:absolute; TOP:520px; LEFT:720px; WIDTH:60px; HEIGHT:60px " >
+		<img         src="teeth.png"  style="position:absolute; TOP:520px; LEFT:780px; WIDTH:60px; HEIGHT:60px " >
+		<img         src="teeth.png"  style="position:absolute; TOP:520px; LEFT:840px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Care For Me!Saba!I was excited for Saba after listening to this album. He's incredibly talented!*Listen to: Busy/ Sirens*" onclick="text(this.id)"  src="saba.jpeg"  style="position:absolute; TOP:520px; LEFT:900px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Grateful!DJ Khaled!I know, I know, but this album had some serious, SERIOUS summer vibes. Major nostalgia for me!*Listen to: Wild Thoughts*" onclick="text(this.id)"  src="djkgrateful.jpeg"  style="position:absolute; TOP:520px; LEFT:960px; WIDTH:60px; HEIGHT:60px " >
+
+	
+	<img class="album" id="Die Lit!Playboi Carti!Spring 2018: My friends and I were gifted summer vibes early!*Listen to: Right Now*" onclick="text(this.id)"  src="playboiII.jpeg"  style="position:absolute; TOP:460px; LEFT:240px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="It's Dark and Hell Is Hot!DMX!After a deep dive into DMX, this was my favorite of his albums!*Listen to: Damien*" onclick="text(this.id)"  src="DMX.jpeg"  style="position:absolute; TOP:460px; LEFT:300px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Playboi Carti!Playboi Carti!Even though I can't understand most of what he says in this mixtape, the vibes are what makes it special!*Listen to: Flex*" onclick="text(this.id)"  src="playboimag.jpeg"  style="position:absolute; TOP:460px; LEFT:360px; WIDTH:60px; HEIGHT:60px " >
+	<img             src="teeth.png"  style="position:absolute; TOP:460px; LEFT:420px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="The Best of DMX!DMX!DMX is the epitome of aggressive rap, of which I am a fan!*Listen to: How's It Goin Down*" onclick="text(this.id)"  src="DMXHITS.jpeg"  style="position:absolute; TOP:460px; LEFT:480px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="IV!BADBADNOTGOOD!My hipster friend put me onto this album. Really creative stuff!*Listen to: Speaking Gently*"onclick="text(this.id)"  src="badbadnotgood4.jpeg"  style="position:absolute; TOP:460px; LEFT:540px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Brainstory!Brainstory!I saw them recently. They were way better on the EP than live. No offense!*Listen to:   *" onclick="text(this.id)"  src="brainstoryEP.jpeg"  style="position:absolute; TOP:460px; LEFT:600px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="The Diary of Alicia Keys!Alicia Keys!I like to play guitar melodies to her songs on this album!*Listen to: If I Ain't Got You*" onclick="text(this.id)"  src="aliciakeys.jpeg"  style="position:absolute; TOP:460px; LEFT:660px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="2pac Greatest Hits!2pac!Definetely got into 2pac in middle school. Can't rank his albums. Him and B.I.G -> GOATS!*Listen to: Picture Me Rollin*" onclick="text(this.id)"  src="2pac.jpg"  style="position:absolute; TOP:460px; LEFT:720px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Kids See Ghosts!Kids See Ghosts (Kanye and Kid Cudi)!Not a huge fan of Kid Cudi, but him and Kanye made a nice little album here!*Listen to: Reborn*" onclick="text(this.id)"  src="kidsseeghosts.jpeg"  style="position:absolute; TOP:460px; LEFT:780px; WIDTH:60px; HEIGHT:60px " >
+	<img             src="teeth.png"  style="position:absolute; TOP:460px; LEFT:840px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="ATLiens!Outkast!Freshman year of High School Bus Tunes!*Listen to: ATLiens*" onclick="text(this.id)"  src="outkastatl.jpeg"  style="position:absolute; TOP:460px; LEFT:900px; WIDTH:60px; HEIGHT:60px " > 
+	<img class="album" id="Trap Lord!ASAP Ferg!Sophomore year of High School Bus Tunes!*Listen to: New Level*"onclick="text(this.id)"  src="traplordferg.jpeg"  style="position:absolute; TOP:460px; LEFT:960px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?!Billie Eilish!A really nice compliation of songs. Actually lived up to the hype!*Listen to: When The Party's Over*" onclick="text(this.id)"  src="billieellish.jpeg" s style="position:absolute; TOP:460px; LEFT:1020px; WIDTH:60px; HEIGHT:60px " >
+	
+
+
+	
+	<img class="album" id="Still Striving!ASAP Ferg!2017 SUMMER VIBES!*Listen to: Olympian*" onclick="text(this.id)"  src="asapfergred.jpeg" style="position:absolute; TOP:400px; LEFT:180px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Get Rich or Die Tryin!50 Cent!2003: I had a babysitter who played this while he was babysitting me and my sister. I begged my dad to buy me the album!*Listen to:   *" onclick="text(this.id)"  src="getrich50cent.jpeg"  style="position:absolute; TOP:400px; LEFT:240px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Championships!Meek Mill!I really gained respect for Meek's lyrics with this album!*Listen to: Championships*" onclick="text(this.id)"  src="meekchampionships.jpeg"  style="position:absolute; TOP:400px; LEFT:300px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Stankonia!Outkast!I can't recall when I got into Outkast, but this album was my first exposure to the group!*Listen to: So Fresh, So Clean*" onclick="text(this.id)"  src="outkaststank.jpeg"  style="position:absolute; TOP:400px; LEFT:360px; WIDTH:60px; HEIGHT:60px " >
+	<img             src="teeth.png"  style="position:absolute; TOP:400px; LEFT:420px; WIDTH:60px; HEIGHT:60px " >
+    <img class="album" id="Culture!Migos!This album kicked of 2017 in a big way. Still can't get over how many bangers were released in 2017!*Listen to: Deadz*" onclick="text(this.id)"  src="cultureMIGO.jpeg"  style="position:absolute; TOP:400px; LEFT:480px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="The Perfect Luv Tape!Lil Uzi Vert!This album has fun car shlaps, but is not great quality music. No offense Uzi!*Listen to: Money Mitch*" onclick="text(this.id)"  src="liluzi.jpeg"  style="position:absolute; TOP:400px; LEFT:540px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Huncho Jack, Jack Huncho!Huncho Jack!I thought this was a great way to end 2017. Major 2017 Winter break vibe. Thank you Travis and Quavo!*Listen to: Black & Chinese*" onclick="text(this.id)"  src="hunchojack.jpeg"  style="position:absolute; TOP:400px; LEFT:600px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Oxymoron!SchoolboyQ!Listened to this a lot my Sophomore year of high school!*Listen to: Hoover Street*" onclick="text(this.id)"  src="oxymoron.jpeg"  style="position:absolute; TOP:400px; LEFT:660px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="The Essential Bill Withers!Bill Withers!I didn't know anything about him for the longest time but I always recognized his voice!*Listen to: Use Me*" onclick="text(this.id)"  src="billwithers.jpeg"  style="position:absolute; TOP:400px; LEFT:720px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="20 All-Time Greatest Hits!James Brown!Dad introdued him to me young;told me to play rhythm guitar like this. I remember his death in 06!*Listen to: It's a Man's World*" onclick="text(this.id)"  src="jamesbrown.jpeg"  style="position:absolute; TOP:400px; LEFT:780px; WIDTH:60px; HEIGHT:60px " >
+	<img             src="teeth.png"  style="position:absolute; TOP:400px; LEFT:840px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Coloring Book!Chance The Rapper!5/20/16: On my way to my high school graduation, riding in my sister's now ex-boyfriend's Camaro, we listend to this album. A lot of sentimental value!*Listen to: All We Got*" onclick="text(this.id)"  src="chancecoloring.jpeg"  style="position:absolute; TOP:400px; LEFT:900px; WIDTH:60px; HEIGHT:60px " > 
+	<img class="album" id="Under Pressure!Logic!2012: Pandora kept trying to make a radio station based on this album. It wouldn't be until several years later that I would appreciate this album!*Listen to: Buried Alive*" onclick="text(this.id)"  src="nikkilogic.jpeg"  style="position:absolute; TOP:400px; LEFT:960px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="FUTURE!Future!2017:This was much better than HENDRXX. Played this in Dykstra hall A LOT!*Listen to: Outta Time *" onclick="text(this.id)"  src="futureyellow.jpg" s style="position:absolute; TOP:400px; LEFT:1020px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Diaspora!Goldlink!Summer 2019: As much as I like this album, I will be upset if these are the only summer shlaps we get for 2019!*Listen to: Spanish Song*" onclick="text(this.id)"  src="goldlinkdiaspora.jpeg" s style="position:absolute; TOP:400px; LEFT:1080px; WIDTH:60px; HEIGHT:60px " >
+	
+
+	
+	<img class="album" id="The Incredible True Story!Logic!I had a little phase with this album a couple of years ago!*Listen to: Run It*" onclick="text(this.id)"  src="incredibletrue.jpeg"  style="position:absolute; TOP:340px; LEFT:120px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="4:44!Jay-Z!Summer 2017: This album was a pleasent suprise. Jay always makes you think, which I enjoy!*Listen to: 4:44*" onclick="text(this.id)"  src="444.png"  style="position:absolute; TOP:340px; LEFT:180px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Curtain Call: The Hits!Eminem!I wasn't about to rank the Eminem albums. I already had to try that with Led Zeppelin!*Listen to: My Names is*" onclick="text(this.id)"  src="eminemcurtain.jpeg"  style="position:absolute; TOP:340px; LEFT:240px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Sgt. Pepper's Lonely Hearts Club Band!The Beatles!This album was a huge part of my childhood. Straight up!*Listen to: Lucy In The Sky With Diamonds*" onclick="text(this.id)"  src="srgtpeppers.jpeg"  style="position:absolute; TOP:340px; LEFT:300px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Mm.. Food!MF DOOM!I really appreciated this album when I found out that MF DOOM is a very talented producer and rapper!*Listen to: Rapp Snitch Knishes*" onclick="text(this.id)"  src="mfdoomfood.jpeg"  style="position:absolute; TOP:340px; LEFT:360px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Black Hawk Down!Soundtrack!I've never been to a war-torn country thankfully, but it felt like Hans Zimmer put me right in 1990's Somalia!*Listen to: Gortoz A Ran*" onclick="text(this.id)"  src="blackhawkdown.jpeg"  style="position:absolute; TOP:340px; LEFT:420px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Torches!Foster The People!2011: Someone on the bus in middle school tells me they can listen to me playing this album loudly through my headphones!*Listen to: Pumped Up Kicks*" onclick="text(this.id)"  src="fosterthepeopletorches.jpeg"  style="position:absolute; TOP:340px; LEFT:480px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Dangerously In Love!Beyonce!2003: I already knew from this album's cover that Beyonce was a force to be recokend with!*Listen to: Me, Myself, and I*" onclick="text(this.id)"  src="beyonceluther.jpeg"  style="position:absolute; TOP:340px; LEFT:540px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Rubber Soul!The Beatles!I remember asking my dad when I was younger what Rubber Soul meant!*Listen to: In My Life*" onclick="text(this.id)"  src="rubbersoul.jpg"  style="position:absolute; TOP:340px; LEFT:600px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Led Zeppelin I!Led Zeppelin!It was so hard for me to somewhat order these LZ albums. Never again will I try to do something like this!*Listen to: Heartbreaker*" onclick="text(this.id)"  src="ledzepI.jpeg"  style="position:absolute; TOP:340px; LEFT:660px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Let's Stay Together!Al Green!Music that both my parents listened to when they were younger. They have good taste!*Listen to: Let's Stay Together*" onclick="text(this.id)"  src="algreen.jpg"  style="position:absolute; TOP:340px; LEFT:720px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="The Dark Knight!Soundtrack!Hans Zimmer just knows what music suits every character in this movie!*Listen to: A Dark Knight*" onclick="text(this.id)"  src="darkknight.jpeg"  style="position:absolute; TOP:340px; LEFT:780px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="YSIV!Logic!Fall 2018: I gained more of an appreciation for Logic with this album!*Listen to: Legacy*" onclick="text(this.id)"  src="franksinatara4.jpeg"  style="position:absolute; TOP:340px; LEFT:840px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Led Zeppelin IV!Led Zeppelin!I had to listen to the album that Stairway To Heaven was on when I was a kid!*Listen to: Stairway To Heaven  *" onclick="text(this.id)"  src="ledzep4.jpeg"  style="position:absolute; TOP:340px; LEFT:900px; WIDTH:60px; HEIGHT:60px " > 
+	<img class="album" id="Legend!Bob Marley and The Wailers!I don't know why, but after summer camp in 2012, I had a Reggae phase. This album was the start!*Listen to: Waiting In Vain*" onclick="text(this.id)"  src="bobmarleylegends.jpg"  style="position:absolute; TOP:340px; LEFT:960px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Ready To Die!Notorious B.I.G.!My family is from New-York. Naturally, I graviated to this NYC rapper legend!*Listen to: Machine Gun Funk *" onclick="text(this.id)"  src="biggue.jpeg" s style="position:absolute; TOP:340px; LEFT:1020px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Physical Graffiti!Led Zeppelin!I remember my dad putting me on this when I was 10!*Listen to: The Wanton Song*" onclick="text(this.id)"  src="physicalgrafledzep.jpeg" s style="position:absolute; TOP:340px; LEFT:1080px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Special Herbs Volumes 1 & 2!Metal Fingers(MF DOOM)!Summer 2017: This album really got me into instrumentals!*Listen to: Arrow Root*" onclick="text(this.id)"  src="mfdoomspecial12.jpg" s style="position:absolute; TOP:340px; LEFT:1140px; WIDTH:60px; HEIGHT:60px " >
+	
+
+	
+	<img class="album" id="Telefone!Noname!Can't remember how exactly I got into Noname, but this mixtape is fire regardless. NYC September 2018 mood!*Listen to: Reality Check *" onclick="text(this.id)"  src="noname.jpeg"  style="position:absolute; TOP:280px; LEFT:120px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Abbey Road!The Beatles!This album on K-Earth 101 as a kid, riding in my dad's Volvo. Major Nostalgia!*Listen to: Here Comes The Sun*" onclick="text(this.id)"  src="abbeyroad.jpeg"  style="position:absolute; TOP:280px; LEFT:180px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Sonder Son!Brent Faiyaz!My sister put me onto this guy. Great voice!*Listen to: First World Problemz/Nobody Carez*" onclick="text(this.id)"  src="sondersonFaiyaz.jpeg"  style="position:absolute; TOP:280px; LEFT:240px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Mos Def & Talib Kweli Are Black Star!Black Star!Raw rap from two greats. Discovered it Winter 2019. Happy I was able to appreciate it!*Listen to: Definition*" onclick="text(this.id)"  src="talibmosdef.jpeg"  style="position:absolute; TOP:280px; LEFT:300px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Yes Lawd!NxWorries!More Anderson Paak for me. Knxwledge helped my man kill this album!*Listen to: Lyk Dis*" onclick="text(this.id)"  src="andersonnxworres.jpeg"  style="position:absolute; TOP:280px; LEFT:360px; WIDTH:60px; HEIGHT:60px " >
+	<img             src="eyes.png"  style="position:absolute; TOP:280px; LEFT:420px; WIDTH:60px; HEIGHT:60px " >
+	<img             src="eyes.png"  style="position:absolute; TOP:280px; LEFT:480px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Don't Forget To Smile!Peter $un!This dude collaborates with Gyyps and he is fire. Good beats and rhymes. Spring Break 2019!*Listen to: Love Drunk Lust*" onclick="text(this.id)"  src="peter$sun.jpeg"  style="position:absolute; TOP:280px; LEFT:540px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Flower Boy!Tyler, The Creator!Summer 2017: I remember volunteering at Ronald Reagan Hospital and walking back to my car listening to this!*Listen to: See You Again*" onclick="text(this.id)"  src="flowerboy.png"  style="position:absolute; TOP:280px; LEFT:600px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Graduation!Kanye West!Everyone my age and their mother remembers Stronger on the radio. Music was different back then!*Listen to: Everything I Am*" onclick="text(this.id)"  src="kanyewestgrad.jpeg"  style="position:absolute; TOP:280px; LEFT:660px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="93 'Til Infinity!Souls Of Mischief!When I think of 90's rap, I think of this album cover!*Listen to: 93 'Til Infinity*"onclick="text(this.id)"  src="soulsofmischief.jpeg"  style="position:absolute; TOP:280px; LEFT:720px; WIDTH:60px; HEIGHT:60px " >
+	<img             src="eyes.png"  style="position:absolute; TOP:280px; LEFT:780px; WIDTH:60px; HEIGHT:60px " >
+	<img             src="eyes.png"  style="position:absolute; TOP:280px; LEFT:840px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Talking Book!Stevie Wonder!Blends my favorite genres and is blind? Truly an inspiration and a hero!*Listen to: You Are The Sunshine Of My Life*" onclick="text(this.id)"  src="steviewondertalkingbook.jpeg"  style="position:absolute; TOP:280px; LEFT:900px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Currents!Tame Impala!Experimental stuff is usally not my thing. After recently being forced to listen to it, I'm definetely more open-minded!*Listen to: Love/Paranoia*" onclick="text(this.id)"  src="tamecurrents.jpeg"  style="position:absolute; TOP:280px; LEFT:960px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="The Score!The Fugees!I definetly remember making pandora radio stations based on songs of this album!*Listen to: The Mask*" onclick="text(this.id)"  src="fugees.png" s style="position:absolute; TOP:280px; LEFT:1020px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Black on Both Sides!Mos Def!I listened to Mos Def when I was younger, but didn't start appreciating him till college!*Listen to: Mathematics*" onclick="text(this.id)"  src="mosdefport.jpeg" s style="position:absolute; TOP:280px; LEFT:1080px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Electric Ladyland!The Jimi Hendrix Experience!Winter 2017: I had to write a paper about Along The Watchtower and I was never more exicted to write a paper. Ever.!*Listen to: All Along The Watchtower*" onclick="text(this.id)"  src="electricladyland.jpeg" s style="position:absolute; TOP:280px; LEFT:1140px; WIDTH:60px; HEIGHT:60px " >
+	
+
+	
+	<img class="album" id="Watching Movies With The Sound Off!Mac Miller!Fall 2018: A big mood for the quarter: ups and downs!*Listen to: Objects In The Mirror*" onclick="text(this.id)"  src="redMAC.jpeg"  style="position:absolute; TOP:220px; LEFT:120px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Led Zeppelin II!Led Zeppelin!Whenever I think of Rock N Roll, I think of Whole Lotta Love.!*Listen to: Whole Lotta Love*" onclick="text(this.id)"  src="ledzepII.jpeg"  style="position:absolute; TOP:220px; LEFT:180px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="All Things Must Pass!George Harrison!Huge guitar influence and the best Beatle. !*Listen to: My Sweet Lord*" onclick="text(this.id)"  src="allthingsmustpass.jpeg"  style="position:absolute; TOP:220px; LEFT:240px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Dark Knight Rises!Soundtrack!I feel like I'm in Gotham when I listen to this soundtrack!*Listen to: Mind If I Cut In?*" onclick="text(this.id)"  src="darkknightrises.jpeg"  style="position:absolute; TOP:220px; LEFT:300px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Gladiator!Soundtrack!After my dad finally let me watch this movie, I realized the music was a big part of why it was so good!*Listen to: To Zuccabar*" onclick="text(this.id)"  src="gladiatorsound.jpeg"  style="position:absolute; TOP:220px; LEFT:360px; WIDTH:60px; HEIGHT:60px " >
+	<img             src="eyes.png"  style="position:absolute; TOP:220px; LEFT:420px; WIDTH:60px; HEIGHT:60px " >
+	<img             src="eyes.png"  style="position:absolute; TOP:220px; LEFT:480px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Getz/Gilberto!João Gilberto and Stan Getz!I remember my dad playing songs from this album with his friends during the holidays!*Listen to: The Girl From Ipanema  *" onclick="text(this.id)"  src="getz.gilberto.jpeg"  style="position:absolute; TOP:220px; LEFT:540px; WIDTH:60px; HEIGHT:60px " > 
+	<img class="album" id="Wave!Antonio Carlos Jobim!September 2018: At a jazz club in Maine with my dad and we see a beautiful perfomance of Triste!*Listen to: Triste*" onclick="text(this.id)"  src="wavejobim.jpeg"  style="position:absolute; TOP:220px; LEFT:600px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="The Essential Isley Brothers!The Isley Brothers! !*Listen to: Dad told me if I want to get good at rhythm guitar, listen to these guys*" onclick="text(this.id)"  src="isleybrothers.jpeg"  style="position:absolute; TOP:220px; LEFT:660px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Black Panter!Soundtrack!This is what made me see the movie. If Kendrick is on anything, I'm in!*Listen to: King's Dead*"  onclick="text(this.id)"  src="blackpanther.jpeg"  style="position:absolute; TOP:220px; LEFT:720px; WIDTH:60px; HEIGHT:60px " >
+	<img             src="eyes.png"  style="position:absolute; TOP:220px; LEFT:780px; WIDTH:60px; HEIGHT:60px " >
+	<img             src="eyes.png"  style="position:absolute; TOP:220px; LEFT:840px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Miseducation of Lauryn Hill!Lauryn Hill!I knew about the Fugees before this album and I was very pleased with this solo album!*Listen to: Can't Take My Eyes Off You*" onclick="text(this.id)"  src="misedlaurnhill.jpg"  style="position:absolute; TOP:220px; LEFT:900px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Brown Sugar!D'Angelo!I got into D'Angelo relatively recently, but his story and muscianship are incredible!*Listen to:Smooth*" onclick="text(this.id)"  src="brownsugar.jpeg"  style="position:absolute; TOP:220px; LEFT:960px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Section.80!Kendrick Lamar!I distinctly remember listening to this album on the bus in high school!*Listen to: Kush & Corinthians (His Pain)*" onclick="text(this.id)"  src="section80.jpeg"  style="position:absolute; TOP:220px; LEFT:1020px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="The College Dropout!Kanye West!I miss the old Kanye!*Listen to: Spaceship*" onclick="text(this.id)"  src="kanyedropout.jpeg" s style="position:absolute; TOP:220px; LEFT:1080px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Promise!Sade!I play guitar to these songs all the time!*Listen to: The Sweetest Taboo*" onclick="text(this.id)"  src="sadepromise.jpeg"  style="position:absolute; TOP:220px; LEFT:1140px; WIDTH:60px; HEIGHT:60px " >
+
+
+	
+	
+	<img class="album" id="Konnichiwa!Skepta!I'm not that much into grime, but Skepta had some aggressive bars!*Listen to: Numbers*" onclick="text(this.id)"  src="skepta.jpeg"  style="position:absolute; TOP:160px; LEFT:180px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Let's Get It On!Marvin Gaye!Gaye is groovy and soulful here. Vibes!*Listen to: You Sure Love To Ball*" onclick="text(this.id)"  src="marvingayeii.jpeg"  style="position:absolute; TOP:160px; LEFT:240px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="IGOR!Tyler, The Creator!I was impressed with Tyler's new direction on this album!*Listen to: I DON'T LOVE YOU ANYMORE*" onclick="text(this.id)"  src="igor.jpeg"  style="position:absolute; TOP:160px; LEFT:300px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Scorpion!Drake!Summer 2018: A nice gift of summer shlaps!*Listen to: Nonstop*" onclick="text(this.id)"  src="scorpdrake.jpeg"  style="position:absolute; TOP:160px; LEFT:360px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="More Life!Drake!Spring break 2017 was a vibe with this one!*Listen to: Get It Together*"onclick="text(this.id)"  src="morelife.jpeg"  style="position:absolute; TOP:160px; LEFT:420px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="untitled unmastered.!Kendrick Lamar!I'm usually skeptical of conceptual art, but Kendrick is Kendrick and he killed this album!*Listen to: Untitled 06 | 06.30.2014*" onclick="text(this.id)"  src="greenKL.jpeg"  style="position:absolute; TOP:160px; LEFT:480px; WIDTH:60px; HEIGHT:60px " > 
+	<img class="album" id="Juan Pablo the Philosopher!Ezra Collective!This album has a nice, subtle transition of older jazz into the 21st century!*Listen to: Space is the Place*" onclick="text(this.id)"  src="philosopherezra.jpeg"  style="position:absolute; TOP:160px; LEFT:540px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Some Rap Songs!Earl Sweatshirt!Mood for December 2018 in Israel. One of the weirdest rap albums out there. I mean weird in the most positive way!*Listen to: December 24*" onclick="text(this.id)"  src="somerapsongs.jpeg"  style="position:absolute; TOP:160px; LEFT:600px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="GYPSYBURNS!Gyyps!I went to high school with this guy. He's a pretty talented musician. Celt Pride!*Listen to: Soulfly*" onclick="text(this.id)"  src="gyypsfire.jpeg"  style="position:absolute; TOP:160px; LEFT:660px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="The Universe Smiles Upon You!Khruangbin!Naturally, I was lead to this earlier album after listening to Con Todo El Mundo. I was not disappointed!*Listen to: Zionsville*" onclick="text(this.id)"  src="firstkhraung.jpeg"  style="position:absolute; TOP:160px; LEFT:720px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Con Todo El Mundo!Khruangbin!My friend put me onto this band. This was their latest album and their songs all pull from global genres. Dope stuff!*Listen to: August 10*" onclick="text(this.id)"  src="contodokhraung.jpeg"  style="position:absolute; TOP:160px; LEFT:780px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="You Can't Steal My Joy!Ezra Collective!They were on my radar when I saw they did a song with Jorja Smith earlier this year. Now I'm a huge fan!*Listen to: Red Whine*" onclick="text(this.id)"  src="youcantstealmyjoy.jpeg"  style="position:absolute; TOP:160px; LEFT:840px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Dirt!Alice in Chains!My next step in my Alice in Chains phase. They really go to the extremes here, but it's impact will stick with me forever!*Listen to: Down in a Hole*" onclick="text(this.id)"  src="dirtalice.jpeg"  style="position:absolute; TOP:160px; LEFT:900px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Lost & Found!Jorja Smith!Reminds me a lot of Amy: beautiful voice, expressive, and adventurous. Excited for what the future holds for her!*Listen to: Lost & Found*" onclick="text(this.id)"  src="jorjasmith.jpeg"  style="position:absolute; TOP:160px; LEFT:960px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Nevermind!Nirvana!After discovering In Utero, this was obviously the next step. Very well executed, Nirvana!*Listen to: Come As You Are*" onclick="text(this.id)"  src="nevermind.jpeg" s style="position:absolute; TOP:160px; LEFT:1020px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Facelift!Alice in Chains!Grunge phase was in full form with this album and Alice in Chains in general!*Listen to: I Know Somethin (Bout You)*" onclick="text(this.id)"  src="faceliftalice.jpeg" s style="position:absolute; TOP:160px; LEFT:1080px; WIDTH:60px; HEIGHT:60px " >
+
+	
+	
+	<img class="album" id="What's Going On!Marvin Gaye!Dad put me on Gaye. Funky, soulful, and great lyrics. I love to play my guitar to this album!*Listen to: What's Going On*" onclick="text(this.id)"  src="marvingayewhatsgoingon.jpeg"  style="position:absolute; TOP:100px; LEFT:240px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="My Beautiful Dark Twisted Fantasy!Kanye West!The best Kanye album, don't @ me!*Listen to: Devil in a New Dress*" onclick="text(this.id)"  src="kanyembdtf.jpg"  style="position:absolute; TOP:100px; LEFT:300px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="In Utero!Nirvana!Doesn't everyone have a grunge/punk rock phase? This was the beginning of that... interesting time in my life!*Listen to: All Apologies*" onclick="text(this.id)"  src="inutero.jpeg"  style="position:absolute; TOP:100px; LEFT:360px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="The Wizrd!Future!Future really grew on me earlier this year with this album. Bangers for the commute!*Listen to: First Off*" onclick="text(this.id)"  src="hendrxx.jpeg"  style="position:absolute; TOP:100px; LEFT:420px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Good Kid, Madd City!Kendrick Lamar!Kendrick got robbed of a grammy.High School shlaps indeed!*Listen to: Sing About Me, I'm Dying Of Thirst*" onclick="text(this.id)"  src="goodkidmaadcity.jpeg"  style="position:absolute; TOP:100px; LEFT:480px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Astroworld!Travis Scott!2018: A little late for summer bangers, but still grateful!*Listen to:Houstonfornication*" onclick="text(this.id)"  src="astro.jpeg"  style="position:absolute; TOP:100px; LEFT:540px; WIDTH:60px; HEIGHT:60px " > 
+	<img class="album" id="Birds In The Trap Sing McKnight!Travis Scott!This album can immediately take me back to the summer before college!*Listen to: Through The Late Night*" onclick="text(this.id)"  src="birdstrap.jpeg"  style="position:absolute; TOP:100px; LEFT:600px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Axis: Bold As Love!The Jimi Hendrix Experience!I had to put this and Are You Experienced next to each other. Hendrix will live forever!*Listen to: Spanish Castle Magic*" onclick="text(this.id)"  src="axisboldaslove.jpeg"  style="position:absolute; TOP:100px; LEFT:660px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Are You Experienced!The Jimi Hendrix Experience!The reasons I play guitar: my dad and Jimi Hendrix!*Listen to: May This Be Love*" onclick="text(this.id)"  src="areyouexp.jpeg"  style="position:absolute; TOP:100px; LEFT:720px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="True To Self!Bryson Tiller!At first, I didn't like this album. Now I really enjoy every song!*Listen to: Stay Blessed*"onclick="text(this.id)"  src="truetoself.jpeg"  style="position:absolute; TOP:100px; LEFT:780px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="KOD!J. Cole!Album cover is sick. Raps are sicker!*Listen to: Brackets*" onclick="text(this.id)"  src="KOD.jpeg"  style="position:absolute; TOP:100px; LEFT:840px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Diamond Life!Sade!Her sound is timeless. So geninune!*Listen to: Your Love Is King  *" onclick="text(this.id)"  src="diamondlifesade.jpeg"  style="position:absolute; TOP:100px; LEFT:900px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="DAMN!Kendrick Lamar!Freshman year vibes!*Listen to: Fear*" onclick="text(this.id)"  src="DAMN.jpeg"  style="position:absolute; TOP:100px; LEFT:960px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Norah Jones!Noarh Jones!Beautiful voice with Jazzy vibes. Dad again!*Listen to: Don't Know Why*" onclick="text(this.id)"  src="norahjones.jpeg"  style="position:absolute; TOP:100px; LEFT:960px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Swimming!Mac Miller!I just got into Mac when this dropped in August 2018. I was upset when he died a month later. I wanted to go on his tour!*Listen to: What's the Use?*" onclick="text(this.id)"  src="swimmingMac.png" s style="position:absolute; TOP:100px; LEFT:1020px; WIDTH:60px; HEIGHT:60px " >
+	
+
+
+	
+	<img class="album" id="4 Your Eyez Only!J. Cole!2016 Winter Break. I only played this album... and maybe Skepta!*Listen to: Change*" onclick="text(this.id)"  src="4youreyezonly.jpeg"  style="position:absolute; TOP:40px; LEFT:300px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="To Pimp A Butterfly!Kendrick Lamar!I had been a Kendrick fan for a while when this dropped. I was happy he was so daring on this album!*Listen to: Mortal Man*" onclick="text(this.id)"  src="topimpabutterfly.jpeg"  style="position:absolute; TOP:40px; LEFT:360px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Ventura!Anderson Paak!Got to see him perform songs from this album at the Forum June 2019. Unbelivable!*Listen to: Reachin 2 Much*" onclick="text(this.id)"  src="Ventura.jpeg"  style="position:absolute; TOP:40px; LEFT:420px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Blank Face!Schoolboy Q!2016 unexpected masterpiece. Took me a while to really, REALLY appreciate it!*Listen to: Kno Ya Wrong*"onclick="text(this.id)"  src="blankface.jpeg"  style="position:absolute; TOP:40px; LEFT:480px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Views!Drake!My first intro to summer vibes. Thank you Drake!*Listen to: U with me?*" onclick="text(this.id)"  src="views.jpg"  style="position:absolute; TOP:40px; LEFT:540px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Channel Orange!Frank Ocean!Takes me right back to Sophomore year of HS. Great lyrics and sounds. Cleary an inspiration for the background!*Listen to: Sierra Leone*" onclick="text(this.id)"  src="channelorange.jpeg"  style="position:absolute; TOP:40px; LEFT:600px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Frank!Amy Winehouse!OG Amy. Raw emotion and Jazz. Dad taught me well!*Listen to: I Heard Love Is Blind*" onclick="text(this.id)"  src="amywineFrank.jpeg"  style="position:absolute; TOP:40px; LEFT:660px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Malibu!Anderson Paak!My first introduction to Paak. The fusion of genres is dope!*Listen to: Heart Don't Stand A Chance*"onclick="text(this.id)"  src="Malibu.jpeg"  style="position:absolute; TOP:40px; LEFT:720px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album"  id="Oxnard!Anderson Paak!He raps. He plays drums. This album was complete for me!*Listen to: 6 Summers*" onclick="text(this.id)"  src="Oxnard.jpeg"  style="position:absolute; TOP:40px; LEFT:780px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Mama's Gun!Erkyah Badu!It's simple and soulful. Dangerous combo. Easy for me to play guitar to with my Dad!*Listen to: Bag Lady*!"onclick="text(this.id)"  src="mamasgun.jpeg"  style="position:absolute; TOP:40px; LEFT:840px; WIDTH:60px; HEIGHT:60px " >
+	<img class="album" id="Back to Black!Amy Winehouse!I miss Amy!*Listen to: Just Friends*" onclick="text(this.id)"  src="backtoblackAW.jpeg"  style="position:absolute; TOP:40px; LEFT:900px; WIDTH:60px; HEIGHT:60px " >
+	<img id="Amy Winehouse Lioness: Hidden Treasures!Amy Winehouse!The only reason I have Apple Music. Amy Winehouse is the GOAT!*Listen to: Wake up Alone*" class="album" onclick="text(this.id)"  src="amywinehouselioness.jpeg"  style="position:absolute; TOP:40px; LEFT:960px; WIDTH:60px; HEIGHT:60px " >
+
+	<div id = "reflectiondiv" onclick="reflection(this)" style="position:absolute; top:600px;background-color: #FF9B5E; width=100%;height=100%">
+	<img class="album" id="meandpopspic"  src="meandpops.png" style="position: absolute; width:200px;height:200px; left:550px;top:110px;}">
+	</div>
+</html>
