@@ -46,18 +46,16 @@
     		textfield.insertBefore(newElem, ids[i]);
     		}
 		textfield.insertBefore(newElem, ids[3])
-	function reflection(x){
+	}
+	function reflection(){
 		var reflection_div= document.getElementById("reflectiondiv") 
-		reflection_div.removeChild(reflection_div.childNodes[0])
+		reflection_div.innerHTML = 	"Reflection<br><br>Music is an important part of my life. It all started with my dad. My family has pictures of me, at around 1 years old, watching my dad playing guitar on the third street promenade in Santa Monica with his jazz band. My dad’s friends would come over during the holidays and play classic bossanova songs in our house. My sister and I would ride in the back seat of my dad’s car listening to K-Earth 101 and I remember asking “Dad, who is that?” My dad would always get a kick out telling me who The Beatles or Eric Clapton were. Music will always be very sacred to me because of these early memories.<br><br> Hence, my self portrait shows my interest for music. Everyday, I go on Apple Music and listen to my eclectic playlists. No matter what activity I am doing, I need to have music playing in the background.<br><br>My inspiration from this courses readings for my self portrait was the article “What Hypertext is” by Noah Wardrip-Fruin. From this article, I challenged my self to make something that is not conventional thought of as hypertext, but is only made up of the basic elements of html. My images (the albums, the basic color blocks, and the photo of my dad and I) were all portrayed using the image tag (<img>) and I used basic CSS to arrange the images in the shape of a face. I was able to construct a smiley face and eyes out of green and pink image tags respectively. I somewhat ordered the albums, with my more favorited albums being at the top of the face. It’s not 100% reflective of what has been my favorite music in order, but I’m happy with my general sense of order.<br><br>Since I was also familiar with Javascript, I embraced the challenge from my professor to add an interactive element to my self-portrait. When someone clicks on an album, they are able to see the name of the album, the artist, a little anecdote or review from me, and one song that I would recommend they listen to if they could only listen to one song from the album. Despite there being a lot of albums to write descriptions for, I had a lot of fun remembering when I listened to these albums in different periods of my life. I hope some of my classmates explore my page, listen to a song, and tell me what they think about the song. Or better yet, they listen to an album that catches their eye and they enjoy it.<br><br>I am proud of this self-portrait. It clearly exhibits my passion for music and I had a lot of picking the albums, designing the head, and writing short anecdotes about each album. I am expecting that my musical change in the future, but it will be fun to look back on this in 10 years and see what I was admiring."
 
 	}
-
-	};
-	
  
 </script>
 <html>
-	<span style="position:absolute;left:570px;font-size: 20px">Reflection Down Below</span>
+	<span style="position:absolute;left:570px;font-size: 20px">Find My Reflection</span>
 	<div id="textfield"> </div>
 	<img class="album" id="2001!Dr.Dre!I had a whole phase of 50 Cent, Eminem, and Dr.Dre (the lineage). This album was huge for me in middle school!*Listen to: The Watcher*" onclick="text(this.id)"  src="drdre2001.jpeg"  style="position:absolute; TOP:520px; LEFT:300px; WIDTH:60px; HEIGHT:60px " >
 	<img class="album" id="Silent Beast!G-Herbo!Fall 2017: Werid album for me to be nostaligic about, but I am!*Listen to:   *" onclick="text(this.id)"  src="gherbosilentbeast.jpeg"  style="position:absolute; TOP:520px; LEFT:360px; WIDTH:60px; HEIGHT:60px " >
@@ -225,7 +223,7 @@
 	<img class="album" id="Back to Black!Amy Winehouse!I miss Amy!*Listen to: Just Friends*" onclick="text(this.id)"  src="backtoblackAW.jpeg"  style="position:absolute; TOP:40px; LEFT:900px; WIDTH:60px; HEIGHT:60px " >
 	<img id="Amy Winehouse Lioness: Hidden Treasures!Amy Winehouse!The only reason I have Apple Music. Amy Winehouse is the GOAT!*Listen to: Wake up Alone*" class="album" onclick="text(this.id)"  src="amywinehouselioness.jpeg"  style="position:absolute; TOP:40px; LEFT:960px; WIDTH:60px; HEIGHT:60px " >
 
-	<div id = "reflectiondiv" onclick="reflection(this)" style="position:absolute; top:600px;background-color: #FF9B5E; width=100%;height=100%">
-	<img class="album" id="meandpopspic"  src="meandpops.png" style="position: absolute; width:200px;height:200px; left:550px;top:110px;}">
+	<div id="reflectiondiv" style="position:absolute; top:600px;background-color: #FF9B5E; width=100%;height=100%">
+	<img class="album" onclick="reflection()" id="meandpopspic"  src="meandpops.png" style="position: absolute; width:200px;height:200px; left:550px;top:110px;}">
 	</div>
 </html>
